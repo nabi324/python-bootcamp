@@ -7,17 +7,18 @@
 # 6. Sort the list alphabetically.
 
 fruits = ["apple", "banana", "cherry", "kiwi", "grapes"]
+
 print("First element:", fruits[0])
 print("Last element:", fruits[-1])
+
 fruits[1] = "Mango"
 print(fruits)
+
 fruits.insert(2, "Watermelon")
 print(fruits)
-fruit_to_check = input("Enter a fruit name to check if it's in the list: ")
-if fruit_to_check in fruits:
-    print(f"{fruit_to_check} is in the list.")
-else:
-   print(f"{fruit_to_check} is not in the list.")
+
+fruit = input("Enter a fruit name: ")
+print(f"{fruit} is in the list:", fruit in fruits)
 
 fruits.sort()
 print(fruits)
