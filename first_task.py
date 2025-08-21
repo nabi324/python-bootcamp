@@ -1,5 +1,5 @@
 # Create a Python program that allows a user to enter their name and some notes, then saves the notes to a file and displays them.
- # This task will help you practice input/output operations, variables, and file handling
+ # This task will help you practice input/output operations, variables, and file handling.
 
 name = input("Enter your name: ")
 age = input("Enter your age: ")
